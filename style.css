@@ -1,4 +1,18 @@
-h1:hover {
-  color:blue;
-  font-family: cursive;
+header {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height:12vh;
+  background: black;
+
+}
+header a {
+  color: #fff;
+  font-size: 1.8em;
+  font-family: Phosphate-solid, fantasy, serif;
+  position: fixed;
+  top: .8em;
+  left: .7em;
+  text-decoration: none;
+
 }
