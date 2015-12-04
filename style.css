@@ -1,18 +1,44 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 header {
   position: fixed;
   display: flex;
   width: 100vw;
-  height:12vh;
+  height: 12vh;
   background: black;
+  z-index: 1000;
 
 }
 header a {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.8em;
   font-family: Phosphate-solid, fantasy, serif;
   position: fixed;
-  top: .8em;
+  top: .9em;
   left: .7em;
   text-decoration: none;
 
+}
+.main {
+  height:88vh;
+  width: 100vw;
+  position: relative;
+  top: 12vh;
+  overflow: hidden;
+}
+#main-video {
+  width: 100vw;
+  position: absolute;
+  top: -25px;
+  height: auto;
+  z-index:1;
+  overflow: hidden;
 }
